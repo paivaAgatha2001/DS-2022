@@ -16,6 +16,8 @@ public class SalarioLiquido {
 		descontoInss = salarioB *pInss/100;
 		salarioL = salarioB - descontoInss;
 		
+		
+		System.out.println("O salário bruto é: "+salarioB);
 		System.out.println("O valor do salário liquido é:  "+salarioL);
 		
 		in.close();
