@@ -7,7 +7,7 @@ public class NumerosInvertidos {
 		
 		int inv = 0, i;
 		
-		System.out.println("digite o número: ");
+		System.out.println("Digite o número: ");
 		num = in.nextInt();
 		
 		while (num != 0) {
@@ -16,7 +16,7 @@ public class NumerosInvertidos {
 			num = num /10;
 		}
 		
-		System.out.println("o número invertido é: "+inv );
+		System.out.println("O número invertido é: "+inv );
 		
 		in.close();
 	}
